@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_blue">#28A9C5</color> <color name="white">#FFFFFF</color>
+    <color name="risk_red">#FF0000</color>
+    <color name="risk_yellow">#FFC107</color>
+    <color name="risk_green">#4CAF50</color>
+    <color name="risk_low">#1D9E75</color>
+    <color name="risk_medium">#EF9F27</color>
+    <color name="risk_high">#D85A30</color>
+    <color name="risk_critical">#E24B4A</color>
+</resources>
