@@ -42,36 +42,64 @@ This project was built to fix that: a lightweight, prediction-driven system that
 
 ---
 
+
 ## 📸 App Screenshots
 
-> *A comprehensive visual showcase of the AI-Powered Flood-Safe Route Planner application interfaces.*
+> 💡 *Below is the visual showcase of the application interfaces, separated cleanly into dedicated modules.*
 
-### 🔐 Authentication & Onboarding
-<p align="center">
-  <img src="screenshots/Splash.jpeg" width="24%" alt="Splash Screen" />
-  <img src="screenshots/Sign in.jpeg" width="24%" alt="Sign In" />
-  <img src="screenshots/Sign up.jpeg" width="24%" alt="Sign Up" />
-  <img src="screenshots/Guest Mode.jpeg" width="24%" alt="Guest Mode" />
-</p>
+---
 
-### 🗺️ Core Navigation & Routing
-<p align="center">
-  <img src="screenshots/Home.jpeg" width="24%" alt="Home Dashboard" />
-  <img src="screenshots/Plan Route.jpeg" width="24%" alt="Plan Route" />
-  <img src="screenshots/Route Results.jpeg" width="24%" alt="Route Results" />
-  <img src="screenshots/Map View.jpeg" width="24%" alt="Map View" />
-</p>
+### 🔐 1. Authentication & Onboarding
+> Users can sign up, log in, or explore the application using the offline-friendly Guest Mode.
 
-### 📊 Alerts, Location Tracking & Profile
 <p align="center">
-  <img src="screenshots/Location Tracking.jpeg" width="24%" alt="Location Tracking" />
-  <img src="screenshots/Alerts.jpeg" width="24%" alt="Flood Alerts" />
-  <img src="screenshots/Analytics.jpeg" width="24%" alt="Flood Analytics" />
-  <img src="screenshots/Profile.jpeg" width="24%" alt="User Profile" />
+  <img src="screenshots/Splash.jpeg" width="22%" alt="Splash Screen" style="margin: 15px;" />
+  <img src="screenshots/Sign in.jpeg" width="22%" alt="Sign In" style="margin: 15px;" />
+  <img src="screenshots/Sign up.jpeg" width="22%" alt="Sign Up" style="margin: 15px;" />
+  <img src="screenshots/Guest Mode.jpeg" width="22%" alt="Guest Mode" style="margin: 15px;" />
 </p>
 
 ---
 
+### 🏠 2. Home Dashboard
+> The main landing hub presenting current weather conditions, immediate flood risks, and quick-action shortcuts.
+
+<p align="center">
+  <img src="screenshots/Home.jpeg" width="23%" alt="Home Dashboard" style="margin: 15px;" />
+</p>
+
+---
+
+### 🗺️ 3. Maps & Routing Engine
+> Offline interactive mapping, path planning configuration, and the final risk-aware route results.
+
+<p align="center">
+  <img src="screenshots/Map View.jpeg" width="22%" alt="Map View" style="margin: 15px;" />
+  <img src="screenshots/Plan Route.jpeg" width="22%" alt="Plan Route" style="margin: 15px;" />
+  <img src="screenshots/Route Results.jpeg" width="22%" alt="Route Results" style="margin: 15px;" />
+  <img src="screenshots/Location Tracking.jpeg" width="22%" alt="Location Tracking" style="margin: 15px;" />
+</p>
+
+---
+
+### 📊 4. Weather Alerts & Analytics
+> Dedicated views for monitoring real-time precipitation alerts and reviewing historical flood data trends.
+
+<p align="center">
+  <img src="screenshots/Alerts.jpeg" width="22%" alt="Flood Alerts" style="margin: 15px;" />
+  <img src="screenshots/Analytics.jpeg" width="22%" alt="Flood Analytics" style="margin: 15px;" />
+</p>
+
+---
+
+### 👤 5. User Profile
+> Managing user account details, preferences, and essential offline settings.
+
+<p align="center">
+  <img src="screenshots/Profile.jpeg" width="23%" alt="User Profile" style="margin: 15px;" />
+</p>
+
+---
 ## 🏗️ Architecture
 
 
