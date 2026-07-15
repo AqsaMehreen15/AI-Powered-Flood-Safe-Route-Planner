@@ -48,26 +48,26 @@ This project was built to fix that: a lightweight, prediction-driven system that
 
 ### 🔐 Authentication & Onboarding
 <p align="center">
-  <img src="screenshots/Splash.png" width="24%" alt="Splash Screen" />
-  <img src="screenshots/Sign in.png" width="24%" alt="Sign In" />
-  <img src="screenshots/Sign up.png" width="24%" alt="Sign Up" />
-  <img src="screenshots/Guest Mode.png" width="24%" alt="Guest Mode" />
+  <img src="screenshots/Splash.jpeg" width="24%" alt="Splash Screen" />
+  <img src="screenshots/Sign in.jpeg" width="24%" alt="Sign In" />
+  <img src="screenshots/Sign up.jpeg" width="24%" alt="Sign Up" />
+  <img src="screenshots/Guest Mode.jpeg" width="24%" alt="Guest Mode" />
 </p>
 
 ### 🗺️ Core Navigation & Routing
 <p align="center">
-  <img src="screenshots/Home.png" width="24%" alt="Home Dashboard" />
-  <img src="screenshots/Plan Route.png" width="24%" alt="Plan Route" />
-  <img src="screenshots/Route Results.png" width="24%" alt="Route Results" />
-  <img src="screenshots/Map View.png" width="24%" alt="Map View" />
+  <img src="screenshots/Home.jpeg" width="24%" alt="Home Dashboard" />
+  <img src="screenshots/Plan Route.jpeg" width="24%" alt="Plan Route" />
+  <img src="screenshots/Route Results.jpeg" width="24%" alt="Route Results" />
+  <img src="screenshots/Map View.jpeg" width="24%" alt="Map View" />
 </p>
 
 ### 📊 Alerts, Location Tracking & Profile
 <p align="center">
-  <img src="screenshots/Location Tracking.png" width="24%" alt="Location Tracking" />
-  <img src="screenshots/Alerts.png" width="24%" alt="Flood Alerts" />
-  <img src="screenshots/Analytics.png" width="24%" alt="Flood Analytics" />
-  <img src="screenshots/Profile.png" width="24%" alt="User Profile" />
+  <img src="screenshots/Location Tracking.jpeg" width="24%" alt="Location Tracking" />
+  <img src="screenshots/Alerts.jpeg" width="24%" alt="Flood Alerts" />
+  <img src="screenshots/Analytics.jpeg" width="24%" alt="Flood Analytics" />
+  <img src="screenshots/Profile.jpeg" width="24%" alt="User Profile" />
 </p>
 
 ---
