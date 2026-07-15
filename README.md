@@ -42,24 +42,61 @@ This project was built to fix that: a lightweight, prediction-driven system that
 
 ---
 
+## 📸 App Screenshots
+
+> *A comprehensive visual showcase of the AI-Powered Flood-Safe Route Planner application interfaces.*
+
+### 🔐 Authentication & Onboarding
+<p align="center">
+  <img src="screenshots/Splash.png" width="24%" alt="Splash Screen" />
+  <img src="screenshots/Sign in.png" width="24%" alt="Sign In" />
+  <img src="screenshots/Sign up.png" width="24%" alt="Sign Up" />
+  <img src="screenshots/Guest Mode.png" width="24%" alt="Guest Mode" />
+</p>
+
+### 🗺️ Core Navigation & Routing
+<p align="center">
+  <img src="screenshots/Home.png" width="24%" alt="Home Dashboard" />
+  <img src="screenshots/Plan Route.png" width="24%" alt="Plan Route" />
+  <img src="screenshots/Route Results.png" width="24%" alt="Route Results" />
+  <img src="screenshots/Map View.png" width="24%" alt="Map View" />
+</p>
+
+### 📊 Alerts, Location Tracking & Profile
+<p align="center">
+  <img src="screenshots/Location Tracking.png" width="24%" alt="Location Tracking" />
+  <img src="screenshots/Alerts.png" width="24%" alt="Flood Alerts" />
+  <img src="screenshots/Analytics.png" width="24%" alt="Flood Analytics" />
+  <img src="screenshots/Profile.png" width="24%" alt="User Profile" />
+</p>
+
+---
+
 ## 🏗️ Architecture
+
+
+```
+
 ┌─────────────────────────────────────────────────────────┐
 │                     Presentation Layer                  │
-│         (Fragments: Home, Maps, Alerts, Analytics)       │
-└───────────────────────────┬───────────────────────────────┘
+│          (Fragments: Home, Maps, Alerts, Analytics)     │
+└───────────────────────────┬─────────────────────────────┘
 │  MVVM
-┌───────────────────────────▼───────────────────────────────┐
-│                      ViewModel Layer                      │
-│              (State management, UI logic)                 │
-└───────────────────────────┬───────────────────────────────┘
+┌───────────────────────────▼─────────────────────────────┐
+│                      ViewModel Layer                    │
+│               (State management, UI logic)              │
+└───────────────────────────┬─────────────────────────────┘
 │
-┌───────────────────┼───────────────────┐
-▼                   ▼                   ▼
-┌───────────────┐   ┌───────────────┐   ┌───────────────────┐
-│  TFLite Model  │   │ Risk-Weighted  │   │   OSM Offline Map  │
-│  (Flood/Rain   │   │ Dijkstra Router│   │     Rendering       │
-│   Prediction)  │   │                │   │                     │
-└───────────────┘   └───────────────┘   └───────────────────┘
+┌───────────────┼───────────────┐
+▼               ▼               ▼
+┌───────────────┐┌───────────────┐┌───────────────────┐
+│  TFLite Model ││ Risk-Weighted ││  OSM Offline Map  │
+│  (Flood/Rain  ││ Dijkstra Router││     Rendering     │
+│   Prediction) ││               ││                   │
+└───────────────┘└───────────────┘└───────────────────┘
+
+```
+
 **Tech Stack:**
 
 | Layer | Technology |
@@ -112,14 +149,19 @@ Flood prediction relies on several public geospatial and weather datasets:
 
 1. Clone the repo:
 ```bash
-   git clone https://github.com/AqsaMehreen15/AI-Powered-Flood-Safe-Route-Planner.git
+   git clone [https://github.com/AqsaMehreen15/AI-Powered-Flood-Safe-Route-Planner.git](https://github.com/AqsaMehreen15/AI-Powered-Flood-Safe-Route-Planner.git)
+
 ```
 
 2. Add your `google-services.json` to the `app/` directory (from Firebase console)
-
 3. In the project root, create `local.properties` and add:
-4. OPENWEATHER_API_KEY=your_api_key_here
-5. 4. Open in Android Studio, sync Gradle, run on emulator/device (minSdk 24+)
+
+```properties
+OPENWEATHER_API_KEY=your_api_key_here
+
+```
+
+4. Open in Android Studio, sync Gradle, run on emulator/device (minSdk 24+)
 
 ---
 
@@ -127,10 +169,10 @@ Flood prediction relies on several public geospatial and weather datasets:
 
 This project was built with a few deliberate trade-offs in mind:
 
-- Offline reliability over cloud-dependent processing
-- Lightweight, low-compute models over larger, more complex ones
-- Fast inference over marginal accuracy gains
-- Risk-aware routing over simple shortest-path logic
+* Offline reliability over cloud-dependent processing
+* Lightweight, low-compute models over larger, more complex ones
+* Fast inference over marginal accuracy gains
+* Risk-aware routing over simple shortest-path logic
 
 These choices reflect real conditions in flood-hit areas — spotty connectivity, limited device power, and the need for quick, usable guidance.
 
