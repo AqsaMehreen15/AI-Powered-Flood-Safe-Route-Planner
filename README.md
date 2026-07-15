@@ -49,55 +49,43 @@ This project was built to fix that: a lightweight, prediction-driven system that
 
 ---
 
-### 🔐 1. Authentication & Onboarding
-> Users can sign up, log in, or explore the application using the offline-friendly Guest Mode.
+### 🔐 1. Authentication
+Users can sign up, log in, or explore the application using the offline-friendly Guest Mode.
 
-<p align="center">
-  <img src="screenshots/Splash.jpeg" width="22%" alt="Splash Screen" style="margin: 15px;" />
-  <img src="screenshots/Sign in.jpeg" width="22%" alt="Sign In" style="margin: 15px;" />
-  <img src="screenshots/Sign up.jpeg" width="22%" alt="Sign Up" style="margin: 15px;" />
-  <img src="screenshots/Guest Mode.jpeg" width="22%" alt="Guest Mode" style="margin: 15px;" />
-</p>
+| Splash Screen | Sign In | Sign Up |
+| :---: | :---: | :---: |
+| <img src="screenshots/Splash.jpeg" width="250" alt="Splash Screen" /> | <img src="screenshots/Sign in.jpeg" width="250" alt="Sign In" /> | <img src="screenshots/Sign up.jpeg" width="250" alt="Sign Up" /> |
 
 ---
 
-### 🏠 2. Home Dashboard
-> The main landing hub presenting current weather conditions, immediate flood risks, and quick-action shortcuts.
+### 🏠 2. Home & Navigation Engine
+The central landing dashboard alongside the offline mapping, path planning configuration, and final risk-aware route results.
 
-<p align="center">
-  <img src="screenshots/Home.jpeg" width="23%" alt="Home Dashboard" style="margin: 15px;" />
-</p>
-
----
-
-### 🗺️ 3. Maps & Routing Engine
-> Offline interactive mapping, path planning configuration, and the final risk-aware route results.
-
-<p align="center">
-  <img src="screenshots/Map View.jpeg" width="22%" alt="Map View" style="margin: 15px;" />
-  <img src="screenshots/Plan Route.jpeg" width="22%" alt="Plan Route" style="margin: 15px;" />
-  <img src="screenshots/Route Results.jpeg" width="22%" alt="Route Results" style="margin: 15px;" />
-  <img src="screenshots/Location Tracking.jpeg" width="22%" alt="Location Tracking" style="margin: 15px;" />
-</p>
+| Home Dashboard | Map View | Plan Route | Route Results | Location Tracking |
+| :---: | :---: | :---: | :---: | :---: |
+| <img src="screenshots/Home.jpeg" width="180" alt="Home Dashboard" /> | <img src="screenshots/Map View.jpeg" width="180" alt="Map View" /> | <img src="screenshots/Plan Route.jpeg" width="180" alt="Plan Route" /> | <img src="screenshots/Route Results.jpeg" width="180" alt="Route Results" /> | <img src="screenshots/Location Tracking.jpeg" width="180" alt="Location Tracking" /> |
 
 ---
 
-### 📊 4. Weather Alerts & Analytics
-> Dedicated views for monitoring real-time precipitation alerts and reviewing historical flood data trends.
+### 📊 3. Weather Alerts & Analytics
+Dedicated views for monitoring real-time precipitation alerts and reviewing historical flood data trends.
 
-<p align="center">
-  <img src="screenshots/Alerts.jpeg" width="22%" alt="Flood Alerts" style="margin: 15px;" />
-  <img src="screenshots/Analytics.jpeg" width="22%" alt="Flood Analytics" style="margin: 15px;" />
-</p>
+| Flood Alerts | Flood Analytics |
+| :---: | :---: |
+| <img src="screenshots/Alerts.jpeg" width="250" alt="Flood Alerts" /> | <img src="screenshots/Analytics.jpeg" width="250" alt="Flood Analytics" /> |
 
 ---
 
-### 👤 5. User Profile
-> Managing user account details, preferences, and essential offline settings.
+### 👤 4. User Profile
+Managing user account details, preferences, and essential offline settings.
 
-<p align="center">
-  <img src="screenshots/Profile.jpeg" width="23%" alt="User Profile" style="margin: 15px;" />
-</p>
+| User Profile | Guest Mode |
+| :---: | :---: |
+| <img src="screenshots/Profile.jpeg" width="250" alt="User Profile" /> | <img src="screenshots/Guest Mode.jpeg" width="250" alt="Guest Mode" /> |
+
+---
+
+
 
 ---
 ## 🏗️ Architecture
